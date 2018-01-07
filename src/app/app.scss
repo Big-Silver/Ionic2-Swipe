@@ -1,0 +1,69 @@
+// http://ionicframework.com/docs/v2/theming/
+
+
+// App Global Sass
+// --------------------------------------------------
+// Put style rules here that you want to apply globally. These
+// styles are for the entire app and not just one component.
+// Additionally, this file can be also used as an entry point
+// to import other Sass files to be included in the output CSS.
+//
+// Shared Sass variables, which can be used to adjust Ionic's
+// default Sass variables, belong in "theme/variables.scss".
+//
+// To declare rules for a specific mode, create a child rule
+// for the .md, .ios, or .wp mode classes. The mode class is
+// automatically applied to the <body> element in the app.
+
+.menu-inner .content-md {
+    background-color: rgb(40, 57, 154);
+}
+.md .menu-inner {
+    width: 85%;
+}
+.scroll-content {
+    padding-left: 20px;
+}
+.menu-title {
+    margin-top: 58px;
+    height: 60px;
+}
+.menu-title .menu-photo {
+    width: 54px;
+    height: 54px;
+    float: left;
+    margin-top: 3px;
+    margin-right: 10px;
+}
+.menu-title .leve {
+    width: 30px;
+    height: 14px;
+    margin-left: 10px;
+}
+.menu-title p {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+.menu-title .name {
+    padding-top: 7px;
+    color: #ffffff;
+}
+.menu-title .email {
+    color: #ffffff;
+    opacity: 0.6;
+}
+.list-md {
+    margin-top: 22px;
+}
+ion-menu .item-md {
+    background-color: transparent;
+    height: 60px;
+}
+ion-menu .list-md .item-block .item-inner {
+    font-size: 20px;
+    color: #ffffff;
+}
+.list-md .item-block .item-inner {
+    border: none;
+}

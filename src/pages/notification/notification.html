@@ -1,0 +1,25 @@
+<!--
+  Generated template for the Notification page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Notifications</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-list>
+    <ion-card ion-item *ngFor="let item of items">
+      <img src="{{item.imgUrl}}">
+      <p class="name">{{item.name}}</p>
+      <p class="state">{{item.state}}</p>
+      <span class="time">{{item.time}}</span>
+    </ion-card>
+  </ion-list>
+</ion-content>

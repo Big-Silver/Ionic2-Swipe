@@ -1,0 +1,180 @@
+page-answer .scroll-content {
+    background: #2d8dfe;
+    text-align: center;
+}
+page-answer button {
+    background: transparent;
+    padding: 0;
+}
+ion-app.md [padding], ion-app.md [padding] .scroll-content {
+    padding: 20px;
+}
+page-answer .btn-close {
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: transparent;
+}
+page-answer .circle1 {
+    position: absolute;
+    left: calc((100% - 116px) / 2);
+}
+page-answer .first {
+    top: 60px;
+    width: 116px;
+    height: 116px;
+    padding: 10px;
+    background: #3691fe;
+    border-radius: 50%;
+}
+page-answer .second {
+    background: #459afe;
+    border-radius: 50%;
+    padding: 10px;
+}
+page-answer .third {
+    background: #5aa5fe;
+    border-radius: 50%;
+    padding: 10px;
+}
+page-answer .name {
+    position: relative;
+    display: inline-block;
+    top: 140px;
+    color: #ffffff;
+    font-size: 18px;
+}
+page-answer .img-leve {
+    width: 30px;
+    height: 14px;
+    margin-left: 10px;
+}
+page-answer .location {
+    position: relative;
+    top: 120px;
+    color: #ffffff;
+    opacity: 0.7;
+    font-size: 10px;
+}
+page-answer .location i {
+    margin-right: 5px;
+}
+page-answer .card-md {
+    border-radius: 10px;
+    min-height: 65px;
+    max-height: 200px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    margin: 0;
+    top: 130px;
+    width: 100%;
+    position: relative;
+    padding: 17px 20px;
+}
+page-answer .card-md p {
+    font-size: 20px;
+    float: left;
+    text-align: left;
+    width: calc(100% - 50px);
+}
+page-answer .card-md i {
+    font-size: 30px;
+    right: 20px;
+    position: absolute;
+    color: #2d8dfe;
+}
+page-answer .change {
+    background: transparent;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 140px;
+    float: right;
+    right: calc((100% - 80px)/2);
+    z-index: 1;
+}
+page-answer .record {
+    position: absolute;
+    bottom: 18px;
+    width: 70px;
+    height: 70px;
+    left: calc((100% - 60px) / 2);
+}
+page-answer .ask {
+    position: absolute;
+    bottom: 18px;
+    left: 30px;
+    width: 50px;
+    height: 50px;
+}
+page-answer .answer-div {
+    position: relative;
+    top: 150px;
+    float: right;
+    z-index: 0;
+}
+page-answer .answer-div .send, page-answer .answer-div .sender {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-top: 6px;
+}
+page-answer .answer-div .sender {
+    display: none;
+}
+page-answer .answer-panel {
+    width: 140px;
+    height: 62px;
+    float: left;
+    margin: 0 10px;
+    background: url('/assets/img/background2.png') center center no-repeat;
+}
+page-answer .answer-panel i {
+    margin: 17px 0 0 20px;
+    float: left;
+    font-size: 30px;
+    color: #ffffff;
+}
+page-answer .answer-panel p {
+    font-size: 20px;
+    color: #ffffff;
+}
+page-answer .rec-sec {
+    position: absolute;
+    bottom: 88px;
+    text-align: center;
+    color: #ffffff;
+    width: calc(100% - 30px);
+    font-size: 20px;
+    margin-bottom: 10px;
+    display: none;
+}
+page-answer .rec-sec .fa-circle {
+    color: red;
+    margin-right: 10px;
+    font-size: 16px;
+}
+page-answer .num {
+    font-size: 60px;
+    letter-spacing: 8px;
+}
+page-answer .score {
+    font-size: 29px;
+    color: #ffffff;
+    margin-left: 10px;
+    letter-spacing: -3px;
+    position: relative;
+    top: -10px;
+}
+page-answer .next {
+    position: absolute;
+    bottom: 18px;
+    width: 50px;
+    height: 50px;
+    right: 30px;
+    display: none;
+}

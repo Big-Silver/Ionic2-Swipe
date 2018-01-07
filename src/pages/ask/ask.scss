@@ -1,0 +1,165 @@
+page-ask .scroll-content {
+    background: #8bc34a;
+    text-align: center;
+}
+page-ask button {
+    background: transparent;
+    padding: 0;
+}
+ion-app.md [padding], ion-app.md [padding] .scroll-content {
+    padding: 20px;
+}
+page-ask .btn-close {
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: transparent;
+}
+page-ask .circle1 {
+    position: absolute;
+    left: 52px;
+}
+page-ask .circle2 {
+    position: absolute;
+    right: 52px;
+}
+page-ask .first {
+    top: 60px;
+    width: 116px;
+    height: 116px;
+    padding: 10px;
+    background: #8fc551;
+    border-radius: 50%;
+}
+page-ask .second {
+    background: #99ca60;
+    border-radius: 50%;
+    padding: 10px;
+}
+page-ask .third {
+    background: #a2cf6f;
+    border-radius: 50%;
+    padding: 10px;
+}
+page-ask .img-to {
+    width: 30px;
+    top: 80px;
+    position: relative;
+}
+page-ask .question {
+    position: relative;
+    top: 110px;
+    color: #ffffff;
+    font-size: 18px;
+}
+page-ask .card-md {
+    border-radius: 10px;
+    height: 65px;
+    margin: 0;
+    top: 220px;
+    width: calc(100% - 40px);
+    position: absolute;
+    padding: 17px 20px;
+}
+page-ask .card-md img {
+    width: 28px;
+    height: 28px;
+    float: right;
+}
+page-ask .card-md p {
+    font-size: 20px;
+    float: left;
+}
+page-ask .change, page-ask .edit {
+    background: transparent;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 190px;
+    z-index: 1;
+}
+page-ask .record {
+    position: absolute;
+    bottom: 18px;
+    width: 70px;
+    height: 70px;
+    left: calc((100% - 60px) / 2);
+}
+page-ask .answer {
+    position: absolute;
+    bottom: 18px;
+    left: 30px;
+    width: 50px;
+    height: 50px;
+}
+page-ask .ask-div {
+    position: absolute;
+    top: 310px;
+    right: 20px;
+    z-index: 0;
+}
+page-ask .ask-div .send, page-ask .ask-div .sender {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-top: 6px;
+}
+page-ask .ask-div .sender {
+    display: none;
+}
+page-ask .ask-panel {
+    width: 140px;
+    height: 62px;
+    float: left;
+    margin: 0 10px;
+    background: url('/assets/img/background1.png') center center no-repeat;
+}
+page-ask .ask-panel i {
+    margin: 17px 0 0 20px;
+    float: left;
+    font-size: 30px;
+    color: #ffffff;
+}
+page-ask .ask-panel p {
+    font-size: 20px;
+    color: #ffffff;
+}
+page-ask .rec-sec {
+    position: absolute;
+    bottom: 88px;
+    text-align: center;
+    color: #ffffff;
+    width: calc(100% - 30px);
+    font-size: 20px;
+    margin-bottom: 10px;
+    display: none;
+}
+page-ask .rec-sec .fa-circle {
+    color: red;
+    margin-right: 10px;
+    font-size: 16px;
+}
+page-ask .num {
+    font-size: 60px;
+    letter-spacing: 8px;
+}
+page-ask .score {
+    font-size: 29px;
+    color: #ffffff;
+    margin-left: 10px;
+    letter-spacing: -3px;
+    position: relative;
+    top: -10px;
+}
+page-ask .next {
+    position: absolute;
+    bottom: 18px;
+    width: 50px;
+    height: 50px;
+    right: 30px;
+    display: none;
+}

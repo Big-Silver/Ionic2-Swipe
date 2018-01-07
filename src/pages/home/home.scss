@@ -1,0 +1,170 @@
+.green {
+    color: green;
+}
+.red {
+    color: red;
+}
+.orange {
+    color: orange;
+}
+.header-md::after {
+    background-image: none;
+}
+ion-header {
+    padding: 30px 15px 0;
+    text-align: center;
+}
+page-home {
+    .content-md {
+        padding: 0 15px;
+        background: rgb(63, 81, 181);
+    }
+    ion-header button {
+        width: 30px;
+        height: 30px;
+        padding: 0;
+        background: transparent;
+        box-shadow: none;
+    }
+    ion-header button img {
+        width: 30px;
+        height: 30px;
+    }
+    ion-header .menu {
+        float: left;
+    }
+    ion-header .alarm {
+        float: right;
+    }
+    ion-header .status {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        border: 2px solid #ffffff;
+        float: left;
+        margin: 0 5px;
+        opacity: 0.3;
+    }
+    ion-header .status-icons {
+        display: inline-block;
+    } 
+    .card-md {
+        height: 150px;
+        border-radius: 10px;
+        margin: 0;
+        background: #ffffff;
+        position: absolute;
+    }
+    #card-stack {
+        width: calc(100% - 40px);
+        height: 150px;
+        margin: 0;
+        position: absolute;
+        left: 20px;
+        top: 90px;
+    }
+    .first {
+        width: 100%;
+        height: 150px;
+    }
+    .second {
+        width: calc(100% - 60px);
+        left: 30px;
+        top: 80px;
+        opacity: 0.8;
+    }
+    .third {
+        width: calc(100% - 80px);
+        left: 40px;
+        top: 70px;
+        opacity: 0.4;
+    }
+    .fourth {
+        width: calc(100% - 100px);
+        left: 50px;
+        top: 60px;
+        opacity: 0.6;
+    }
+    .voice2 {
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+    }
+    .first p, .one-card p {
+        margin-top: 40px;
+        padding: 0 40px;
+        font-size: 24px;
+    }
+    .first p {
+        margin-top: 40px;
+        padding: 0 40px;
+    }
+    .first .label-md {
+        margin: 0;
+        height: 100%;
+    }
+    button {
+        background-color: transparent;
+        padding: 0;
+    }
+    .record {
+        position: absolute;
+        bottom: 18px;
+        width: 70px;
+        height: 70px;
+        margin-left: calc((100% - 100px) / 2);
+    }
+    .levl {
+        margin-top: 20px;
+        color: #ffffff;
+    }
+    .one-card {
+        width: calc(100% - 40px);
+        left: calc(100% - 20px);
+        top: 266px;
+        display: none;
+    }
+    .rec-sec {
+        position: absolute;
+        bottom: 88px;
+        text-align: center;
+        color: #ffffff;
+        width: calc(100% - 30px);
+        font-size: 20px;
+        margin-bottom: 10px;
+        display: none;
+    }
+    .rec-sec .fa-circle {
+        color: red;
+        margin-right: 10px;
+        font-size: 16px;
+    }
+    .num {
+        font-size: 60px;
+        letter-spacing: 8px;
+    }
+    .score {
+        font-size: 29px;
+        color: #ffffff;
+        margin-left: 10px;
+        letter-spacing: -3px;
+        position: relative;
+        top: -10px;
+    }
+    .text {
+        position: relative;
+        margin-top: 370px;
+        text-align: center;
+        // display: none;
+    }
+    .next {
+        position: absolute;
+        bottom: 18px;
+        width: 50px;
+        height: 50px;
+        right: 30px;
+        display: none;
+    }
+}

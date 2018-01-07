@@ -1,0 +1,55 @@
+<ion-content padding>
+  <button class="btn-close" (click)="close()">
+    <img src="assets/img/close.png">
+  </button>
+  <div class="circle1 first">
+    <div class="second">
+      <div class="third">
+        <img src="assets/img/photo_1.png">
+      </div>
+    </div>
+  </div>
+  <img src="assets/img/to.png" class="img-to">
+  <div class="circle2 first">
+    <div class="second">
+      <div class="third">
+        <img src="assets/img/photo_6.png">
+      </div>
+    </div>
+  </div>
+  <p class="question">you ask question to public</p>
+  <ion-card>
+    <p>Do you have girlfriend?</p>
+    <img src="assets/img/voice_1.png">
+  </ion-card>
+  <ion-card [@textPanel]='textState'>
+    <p>Do you have boyfriend?</p>
+    <img src="assets/img/voice_1.png">
+  </ion-card>
+  <button class="edit" (click)="edit()" [@buttons]='editState'>
+    <img src="assets/img/edit.png">
+  </button>
+  <button class="change" (click)="change()" [@buttons]='editState'>
+    <img src="assets/img/change.png">
+  </button>
+  <div class="ask-div">
+    <button class="send" [@sendPanel]='sendState' (click)="send()">
+      <img src="assets/img/send.png">
+    </button>
+    <div class="ask-panel" [@askPanel]='askState' [@replaceBackground]='backgroundState'>
+      <i class="fa fa-volume-up" [@changeImageColor]='imgState'></i>
+      <p [@changeFontColor]='fontState'>21''</p>
+    </div>
+    <img class="sender" src="assets/img/photo_1.png" [@recDiv]='senderState'>
+  </div>
+  <p class="rec-sec" [@recDiv]='recDivState'><i class="fa fa-circle"></i>15'</p>
+  <button class="answer">
+    <img src="assets/img/answer.png">
+  </button>  
+  <button class="record" (click)="record()">
+    <img src="assets/img/record.png" [@recImage]='recImageState'>
+  </button>
+  <button class="next" [@buttons]='nextState'>
+    <img src="assets/img/next.png">
+  </button>  
+</ion-content>

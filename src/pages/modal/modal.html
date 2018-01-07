@@ -1,0 +1,9 @@
+<ion-card class="modal">
+  <ion-card-header [@titlePanel]="titleState">Great!</ion-card-header>
+  <ion-card-content>
+    <button class="continue" [@btn1Panel]="firstState" (click)="continue()">Continue to record</button>
+    <button class="ask" [@btn2Panel]="secondState" (click)="ask()">Ask a question</button>
+    <button class="answer" [@btn3Panel]="thirdState" (click)="answer()">Answer a question</button>
+  </ion-card-content>
+</ion-card>
+<div class="modal-div" (click)="dismiss()"></div>

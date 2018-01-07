@@ -1,0 +1,56 @@
+page-notification .content-md {
+    background: rgb(63, 81, 181);
+}
+page-notification .toolbar-md {
+    padding: 0;
+    min-height: 0;
+}
+page-notification .toolbar-background {
+    background: transparent;
+}
+page-notification .bar-button-default-md {
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    min-width: 0;
+}
+page-notification .back-button-icon-md {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0;
+}
+page-notification .toolbar-title-md {
+    color: #ffffff;
+}
+page-notification .list-md {
+    margin: 22px 4px 0;
+}
+page-notification .item-md {
+    margin-bottom: 10px;
+    height: 80px;
+    padding: 13px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+page-notification ion-card img {
+    width: 54px;
+    height: 54px;
+    float: left;
+    margin-right: 30px;
+}
+page-notification ion-card .time {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    color: grey;
+}
+page-notification ion-card .name {
+    font-size: 20px;
+    padding-top: 3px;
+}
+page-notification ion-card .state {
+    font-size: 18px;
+    color: dodgerblue;
+}

@@ -1,0 +1,41 @@
+<ion-header>
+  <button menuToggle class="menu">
+    <img class="btn-menu" src="assets/img/photo_7.png">
+  </button>
+  <div class="status-icons">
+    <div class="status" [@markPanel]='markState'></div>
+    <div class="status"></div>
+    <div class="status"></div>
+    <div class="status"></div>
+  </div>
+  <button alarmToggle class="alarm" (click)="goToNotifications()">
+    <img class="btn-alarm" src="assets/img/notice_1.png">
+  </button>
+</ion-header>
+
+<ion-content padding>
+  <p class="levl">Levl 1</p>
+  <ion-card class="fourth"></ion-card>
+  <ion-card class="third"></ion-card>
+  <ion-card class="second"></ion-card>
+  <div swing-stack #myswing1 [stackConfig]="stackConfig" (throwoutleft)="voteUp(true)" (throwoutright)="voteUp(false)" id="card-stack">
+    <ion-card #mycards1 swing-card *ngFor="let c of cards" class="first">
+      <img class="voice2" src="assets/img/voice_2.png">
+      <p>{{ c }}</p>
+    </ion-card>
+  </div>
+  <ion-card class="one-card" [@onePanel]='oneState' [@recDiv]='oneCardShowState'>
+    <img class="voice2" src="assets/img/voice_2.png">
+    <p><font class="green">This is the best</font> <font class="red">apps I had</font> <font class="green">ever used in</font><font class="red"> in</font><font class="orange"> my life.</font></p>
+  </ion-card>
+  <div class="text" [@textPanel]='txtState'>
+    <span class="num green">84</span><span class="score">SCORE</span>
+  </div>
+  <p class="rec-sec" [@recDiv]='recDivState'><i class="fa fa-circle"></i>15'</p>
+  <button class="record" (click)="record()">
+    <img src="assets/img/record.png" [@recImage]='recImageState'>
+  </button>
+  <button class="next">
+    <img src="assets/img/next.png">
+  </button>
+</ion-content>

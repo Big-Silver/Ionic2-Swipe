@@ -1,0 +1,41 @@
+<ion-content padding>
+  <button class="btn-close" (click)="close()">
+    <img src="assets/img/close.png">
+  </button>
+  <div class="circle1 first">
+    <div class="second">
+      <div class="third">
+        <img src="assets/img/{{url}}">
+      </div>
+    </div>
+  </div>
+  <p class="name">Jose Howard<img src="assets/img/leve.png" class="img-leve"></p>
+  <p class="location"><i class="fa fa-map-marker"></i>Port Chester, New York</p>
+  <ion-card [@textPanel]='textState'>
+    <p>{{answer}}</p>
+    <i class="fa fa-volume-up"></i>
+  </ion-card>
+  <button class="change" (click)="change()" [@buttons]='editState'>
+    <img src="assets/img/change.png">
+  </button>
+  <div class="answer-div">
+    <button class="send" [@sendPanel]='sendState' (click)="send()">
+      <img src="assets/img/send.png">
+    </button>
+    <div class="answer-panel" [@askPanel]='askState' [@replaceBackground]='backgroundState'>
+      <i class="fa fa-volume-up" [@changeImageColor]='imgState'></i>
+      <p [@changeFontColor]='fontState'>21''</p>
+    </div>
+    <img class="sender" src="assets/img/photo_1.png" [@recDiv]='senderState'>
+  </div>
+  <p class="rec-sec" [@recDiv]='recDivState'><i class="fa fa-circle"></i>15'</p>
+  <button class="ask">
+    <img src="assets/img/ask.png">
+  </button>  
+  <button class="record" (click)="record()">
+    <img src="assets/img/record.png" [@recImage]='recImageState'>
+  </button>
+  <button class="next" (click)="next()" [@buttons]='nextState'>
+    <img src="assets/img/next.png">
+  </button>  
+</ion-content>

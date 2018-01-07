@@ -1,0 +1,49 @@
+page-modal .modal.card-md {
+    z-index: 1001;
+    position: absolute;
+    text-align: center;
+    height: 422px;
+    border-radius: 10px;
+    width: 316px;
+    margin: 0;
+    padding: 21px 28px;
+    top: calc((100vh - 422px) / 2);
+    left: calc((100% - 316px) / 2);
+}
+page-modal .modal .card-header {
+    height: 80px;
+    padding: 0;
+    font-size: 70px;
+    text-align: center;
+    color: limegreen;
+}
+page-modal .modal .card-content-md {
+    padding: 0;
+}
+page-modal .modal button {
+    height: 80px;
+    width: 100%;
+    margin: 20px 0 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    border-radius: 10px;
+}
+page-modal .modal .continue {
+    background: blue;
+}
+page-modal .modal .ask {
+    background: limegreen;
+}
+page-modal .modal .answer {
+    background: deepskyblue;
+}
+page-modal .modal-div {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    opacity: 0.7;
+    z-index: 1000;
+    background: #000000;
+}
